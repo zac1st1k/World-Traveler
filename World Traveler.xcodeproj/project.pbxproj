@@ -10,11 +10,13 @@
 		113E5F991A70E4C3007F72FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E5F981A70E4C3007F72FC /* main.m */; };
 		113E5F9C1A70E4C3007F72FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E5F9B1A70E4C3007F72FC /* AppDelegate.m */; };
 		113E5F9F1A70E4C3007F72FC /* World_Traveler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 113E5F9D1A70E4C3007F72FC /* World_Traveler.xcdatamodeld */; };
-		113E5FA21A70E4C3007F72FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E5FA11A70E4C3007F72FC /* ViewController.m */; };
+		113E5FA21A70E4C3007F72FC /* XZZListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E5FA11A70E4C3007F72FC /* XZZListViewController.m */; };
 		113E5FA51A70E4C3007F72FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113E5FA31A70E4C3007F72FC /* Main.storyboard */; };
 		113E5FA71A70E4C3007F72FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113E5FA61A70E4C3007F72FC /* Images.xcassets */; };
 		113E5FAA1A70E4C3007F72FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113E5FA81A70E4C3007F72FC /* LaunchScreen.xib */; };
 		113E5FB61A70E4C4007F72FC /* World_TravelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E5FB51A70E4C4007F72FC /* World_TravelerTests.m */; };
+		113E5FC11A70E76D007F72FC /* XZZMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E5FC01A70E76D007F72FC /* XZZMapViewController.m */; };
+		73C270FDCDBAD74E0F324A31 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0A81E0DAB2DCAD40AEBF26 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +36,19 @@
 		113E5F9A1A70E4C3007F72FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		113E5F9B1A70E4C3007F72FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		113E5F9E1A70E4C3007F72FC /* World_Traveler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = World_Traveler.xcdatamodel; sourceTree = "<group>"; };
-		113E5FA01A70E4C3007F72FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		113E5FA11A70E4C3007F72FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		113E5FA01A70E4C3007F72FC /* XZZListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZZListViewController.h; sourceTree = "<group>"; };
+		113E5FA11A70E4C3007F72FC /* XZZListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZZListViewController.m; sourceTree = "<group>"; };
 		113E5FA41A70E4C3007F72FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		113E5FA61A70E4C3007F72FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		113E5FA91A70E4C3007F72FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		113E5FAF1A70E4C4007F72FC /* World TravelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World TravelerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		113E5FB41A70E4C4007F72FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		113E5FB51A70E4C4007F72FC /* World_TravelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_TravelerTests.m; sourceTree = "<group>"; };
+		113E5FBF1A70E76D007F72FC /* XZZMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZZMapViewController.h; sourceTree = "<group>"; };
+		113E5FC01A70E76D007F72FC /* XZZMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZZMapViewController.m; sourceTree = "<group>"; };
+		33BD2B319C9033C6063BC6FD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3637B36066E28677400CD5AC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6B0A81E0DAB2DCAD40AEBF26 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73C270FDCDBAD74E0F324A31 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +76,8 @@
 				113E5F951A70E4C3007F72FC /* World Traveler */,
 				113E5FB21A70E4C4007F72FC /* World TravelerTests */,
 				113E5F941A70E4C3007F72FC /* Products */,
+				1A5B5B255761604C1942B91C /* Pods */,
+				7F3D856047295C8EB9FB4F6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,9 +95,11 @@
 			children = (
 				113E5F9A1A70E4C3007F72FC /* AppDelegate.h */,
 				113E5F9B1A70E4C3007F72FC /* AppDelegate.m */,
-				113E5FA01A70E4C3007F72FC /* ViewController.h */,
-				113E5FA11A70E4C3007F72FC /* ViewController.m */,
+				113E5FA01A70E4C3007F72FC /* XZZListViewController.h */,
+				113E5FA11A70E4C3007F72FC /* XZZListViewController.m */,
 				113E5FA31A70E4C3007F72FC /* Main.storyboard */,
+				113E5FBF1A70E76D007F72FC /* XZZMapViewController.h */,
+				113E5FC01A70E76D007F72FC /* XZZMapViewController.m */,
 				113E5FA61A70E4C3007F72FC /* Images.xcassets */,
 				113E5FA81A70E4C3007F72FC /* LaunchScreen.xib */,
 				113E5F9D1A70E4C3007F72FC /* World_Traveler.xcdatamodeld */,
@@ -122,6 +134,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1A5B5B255761604C1942B91C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3637B36066E28677400CD5AC /* Pods.debug.xcconfig */,
+				33BD2B319C9033C6063BC6FD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F3D856047295C8EB9FB4F6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B0A81E0DAB2DCAD40AEBF26 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 113E5FB91A70E4C4007F72FC /* Build configuration list for PBXNativeTarget "World Traveler" */;
 			buildPhases = (
+				97C867998C7DB69DCD3CA7C0 /* Check Pods Manifest.lock */,
 				113E5F8F1A70E4C3007F72FC /* Sources */,
 				113E5F901A70E4C3007F72FC /* Frameworks */,
 				113E5F911A70E4C3007F72FC /* Resources */,
+				93EF8FC972410F2EF8074950 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,6 +248,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		93EF8FC972410F2EF8074950 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97C867998C7DB69DCD3CA7C0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		113E5F8F1A70E4C3007F72FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -224,8 +288,9 @@
 			files = (
 				113E5F9C1A70E4C3007F72FC /* AppDelegate.m in Sources */,
 				113E5F9F1A70E4C3007F72FC /* World_Traveler.xcdatamodeld in Sources */,
-				113E5FA21A70E4C3007F72FC /* ViewController.m in Sources */,
+				113E5FA21A70E4C3007F72FC /* XZZListViewController.m in Sources */,
 				113E5F991A70E4C3007F72FC /* main.m in Sources */,
+				113E5FC11A70E76D007F72FC /* XZZMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +412,7 @@
 		};
 		113E5FBA1A70E4C4007F72FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3637B36066E28677400CD5AC /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "World Traveler/Info.plist";
@@ -357,6 +423,7 @@
 		};
 		113E5FBB1A70E4C4007F72FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33BD2B319C9033C6063BC6FD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "World Traveler/Info.plist";
@@ -418,6 +485,7 @@
 				113E5FBB1A70E4C4007F72FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		113E5FBC1A70E4C4007F72FC /* Build configuration list for PBXNativeTarget "World TravelerTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +494,7 @@
 				113E5FBE1A70E4C4007F72FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

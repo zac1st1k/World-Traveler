@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 1st1k. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "XZZListViewController.h"
 
-@interface ViewController ()
+@interface XZZListViewController ()
 
 @end
 
-@implementation ViewController
+@implementation XZZListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,4 +24,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)refreshBarButtonItemPressed:(UIBarButtonItem *)sender {
+}
 @end
