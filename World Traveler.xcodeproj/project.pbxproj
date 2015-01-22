@@ -16,6 +16,7 @@
 		113E5FAA1A70E4C3007F72FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113E5FA81A70E4C3007F72FC /* LaunchScreen.xib */; };
 		113E5FB61A70E4C4007F72FC /* World_TravelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E5FB51A70E4C4007F72FC /* World_TravelerTests.m */; };
 		113E5FC11A70E76D007F72FC /* XZZMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 113E5FC01A70E76D007F72FC /* XZZMapViewController.m */; };
+		113E5FC61A70EB5F007F72FC /* WorldTravellerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 113E5FC41A70EB5F007F72FC /* WorldTravellerModel.xcdatamodeld */; };
 		73C270FDCDBAD74E0F324A31 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0A81E0DAB2DCAD40AEBF26 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,18 @@
 		113E5FB51A70E4C4007F72FC /* World_TravelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_TravelerTests.m; sourceTree = "<group>"; };
 		113E5FBF1A70E76D007F72FC /* XZZMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZZMapViewController.h; sourceTree = "<group>"; };
 		113E5FC01A70E76D007F72FC /* XZZMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZZMapViewController.m; sourceTree = "<group>"; };
+		113E5FC51A70EB5F007F72FC /* WorldTravellerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldTravellerModel.xcdatamodel; sourceTree = "<group>"; };
+		113E5FC71A70EB9C007F72FC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		113E5FCA1A70EF0E007F72FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Base; path = Base.lproj/Location.h; sourceTree = "<group>"; };
+		113E5FCC1A70EF0E007F72FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Base; path = Base.lproj/Location.m; sourceTree = "<group>"; };
+		113E5FCE1A70EF0F007F72FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Base; path = Base.lproj/Venue.h; sourceTree = "<group>"; };
+		113E5FD01A70EF0F007F72FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Base; path = Base.lproj/Venue.m; sourceTree = "<group>"; };
+		113E5FD21A70EF0F007F72FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Base; path = Base.lproj/Contact.h; sourceTree = "<group>"; };
+		113E5FD41A70EF0F007F72FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Base; path = Base.lproj/Contact.m; sourceTree = "<group>"; };
+		113E5FD61A70EF10007F72FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Base; path = Base.lproj/FSCategory.h; sourceTree = "<group>"; };
+		113E5FD81A70EF10007F72FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Base; path = Base.lproj/FSCategory.m; sourceTree = "<group>"; };
+		113E5FDA1A70EF10007F72FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Base; path = Base.lproj/Menu.h; sourceTree = "<group>"; };
+		113E5FDC1A70EF10007F72FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Base; path = Base.lproj/Menu.m; sourceTree = "<group>"; };
 		33BD2B319C9033C6063BC6FD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		3637B36066E28677400CD5AC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6B0A81E0DAB2DCAD40AEBF26 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +113,7 @@
 				113E5FA31A70E4C3007F72FC /* Main.storyboard */,
 				113E5FBF1A70E76D007F72FC /* XZZMapViewController.h */,
 				113E5FC01A70E76D007F72FC /* XZZMapViewController.m */,
+				113E5FC21A70EB03007F72FC /* Model */,
 				113E5FA61A70E4C3007F72FC /* Images.xcassets */,
 				113E5FA81A70E4C3007F72FC /* LaunchScreen.xib */,
 				113E5F9D1A70E4C3007F72FC /* World_Traveler.xcdatamodeld */,
@@ -134,6 +148,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		113E5FC21A70EB03007F72FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				113E5FC41A70EB5F007F72FC /* WorldTravellerModel.xcdatamodeld */,
+				113E5FD91A70EF10007F72FC /* Menu.h */,
+				113E5FDB1A70EF10007F72FC /* Menu.m */,
+				113E5FD51A70EF10007F72FC /* FSCategory.h */,
+				113E5FD71A70EF10007F72FC /* FSCategory.m */,
+				113E5FD11A70EF0F007F72FC /* Contact.h */,
+				113E5FD31A70EF0F007F72FC /* Contact.m */,
+				113E5FCD1A70EF0F007F72FC /* Venue.h */,
+				113E5FCF1A70EF0F007F72FC /* Venue.m */,
+				113E5FC91A70EF0E007F72FC /* Location.h */,
+				113E5FCB1A70EF0E007F72FC /* Location.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		1A5B5B255761604C1942B91C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +178,7 @@
 		7F3D856047295C8EB9FB4F6B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				113E5FC71A70EB9C007F72FC /* CoreData.framework */,
 				6B0A81E0DAB2DCAD40AEBF26 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -288,6 +321,7 @@
 			files = (
 				113E5F9C1A70E4C3007F72FC /* AppDelegate.m in Sources */,
 				113E5F9F1A70E4C3007F72FC /* World_Traveler.xcdatamodeld in Sources */,
+				113E5FC61A70EB5F007F72FC /* WorldTravellerModel.xcdatamodeld in Sources */,
 				113E5FA21A70E4C3007F72FC /* XZZListViewController.m in Sources */,
 				113E5F991A70E4C3007F72FC /* main.m in Sources */,
 				113E5FC11A70E76D007F72FC /* XZZMapViewController.m in Sources */,
@@ -327,6 +361,86 @@
 				113E5FA91A70E4C3007F72FC /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		113E5FC91A70EF0E007F72FC /* Location.h */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113E5FCA1A70EF0E007F72FC /* Base */,
+			);
+			name = Location.h;
+			sourceTree = "<group>";
+		};
+		113E5FCB1A70EF0E007F72FC /* Location.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113E5FCC1A70EF0E007F72FC /* Base */,
+			);
+			name = Location.m;
+			sourceTree = "<group>";
+		};
+		113E5FCD1A70EF0F007F72FC /* Venue.h */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113E5FCE1A70EF0F007F72FC /* Base */,
+			);
+			name = Venue.h;
+			sourceTree = "<group>";
+		};
+		113E5FCF1A70EF0F007F72FC /* Venue.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113E5FD01A70EF0F007F72FC /* Base */,
+			);
+			name = Venue.m;
+			sourceTree = "<group>";
+		};
+		113E5FD11A70EF0F007F72FC /* Contact.h */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113E5FD21A70EF0F007F72FC /* Base */,
+			);
+			name = Contact.h;
+			sourceTree = "<group>";
+		};
+		113E5FD31A70EF0F007F72FC /* Contact.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113E5FD41A70EF0F007F72FC /* Base */,
+			);
+			name = Contact.m;
+			sourceTree = "<group>";
+		};
+		113E5FD51A70EF10007F72FC /* FSCategory.h */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113E5FD61A70EF10007F72FC /* Base */,
+			);
+			name = FSCategory.h;
+			sourceTree = "<group>";
+		};
+		113E5FD71A70EF10007F72FC /* FSCategory.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113E5FD81A70EF10007F72FC /* Base */,
+			);
+			name = FSCategory.m;
+			sourceTree = "<group>";
+		};
+		113E5FD91A70EF10007F72FC /* Menu.h */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113E5FDA1A70EF10007F72FC /* Base */,
+			);
+			name = Menu.h;
+			sourceTree = "<group>";
+		};
+		113E5FDB1A70EF10007F72FC /* Menu.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113E5FDC1A70EF10007F72FC /* Base */,
+			);
+			name = Menu.m;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -506,6 +620,16 @@
 			);
 			currentVersion = 113E5F9E1A70E4C3007F72FC /* World_Traveler.xcdatamodel */;
 			path = World_Traveler.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		113E5FC41A70EB5F007F72FC /* WorldTravellerModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				113E5FC51A70EB5F007F72FC /* WorldTravellerModel.xcdatamodel */,
+			);
+			currentVersion = 113E5FC51A70EB5F007F72FC /* WorldTravellerModel.xcdatamodel */;
+			path = WorldTravellerModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
